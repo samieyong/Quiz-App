@@ -1,0 +1,100 @@
+body{
+	background: linear-gradient(blue,pink,blue);
+}
+.wrap{
+	margin: auto;
+	background: white;
+	width: 600px;
+	height: 570px;
+	padding: 20px;
+	overflow: hidden;
+}
+
+img{
+	height: 100px;
+	width: 80px;
+}
+table{ 
+	width: 608px;
+	border-bottom: 2px skyblue solid ; 
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+tr{ vertical-align: top;  }
+.banner{
+	color: blue;
+	text-align: center;
+	text-transform: capitalize;
+}
+.banner h1, .banner h2{
+	text-shadow: 1px 1px 1px red;
+}
+.banner h1, .banner h4{	margin: 0px; }
+.banner h4{	
+	font-style: italic; 
+	font-weight: normal;
+}
+h2{ margin: 5px 0; }
+section label, section #qtnNumber, #clear{float: left; margin-bottom: 10px;}
+section label{padding-right: 5px;}
+#clear{margin-left: 140px;}
+#qtnNumber{
+	width: 80px;
+	background-color: pink;
+	text-align: center;
+}
+.button {
+	background: pink;
+	height: 25px;
+}
+#display{
+	float: right;
+}
+#content{
+	clear:both;
+	border: 2px skyblue solid;
+	border-radius: 10px;
+	height: 300px;
+	margin: 20px 0;
+	padding: 0 20px 20px 20px;
+	background: url(images/christian2.png) no-repeat 80px -10px;	
+	background-size: 450px;
+}
+#question{font-weight: bold; letter-spacing: 1px;}
+
+#content p{ 
+	padding: 5px; 
+	margin: 10px 0px; 
+	font-size: 18px;
+}
+#bottom{
+	padding-top: 5px;
+}
+#highlight, #numLeft{
+	float: left;
+}
+#numLeft{ margin-left: 140px; }
+.timeDiv{ float: right; }
+#timer{
+	height: 30px;
+	width: 120px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -10px;
+}
+#numLeftPara{
+	margin-top: 8px; 
+	text-align: center;
+	border:1px dotted red; 
+	font-size: 18px;
+}
+
+footer{
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+
+
+
